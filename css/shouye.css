@@ -13,18 +13,24 @@ body{
   padding: 0.3rem 5%;
 		background-color: #2c363f;
 }
+.qh{
+	position: absolute;
+	top: 0.51rem;
+	right: 0;
+	padding: 0.3rem 5%;
+	z-index: 99;
+	display: none;
+}
 .logo {
   width: 0.8rem;
 }
 .top_right {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  width: 1rem;
+		text-align: center;
   background-color: #f2b51f;
   color: #000;
   font-size: 0.24rem;
   padding: 0.1rem;
-  border-radius: 0.1rem;
 }
 .top_right img {
   margin-left: 0.05rem;
@@ -152,9 +158,9 @@ ul li {
 }
 ul li div {
   text-align: center;
-  width: 0.8rem;
   font-weight: 500;
-  display: block;
+		display: flex;
+		justify-content: center;
   text-decoration: none;
   padding: 0.03rem 0.1rem;
   font-size: 0.3rem;

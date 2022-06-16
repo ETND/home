@@ -14,6 +14,21 @@ new Swiper(".loop", {
     el: ".swiper-pagination",
   },
 });
+								
+								var yy = document.getElementById("yy");
+								var qh = document.getElementById("qh");
+								let zt = 1
+								yy.onclick = function () {
+									if(zt = 1){
+										zt = 0
+										console.log(zt);
+										qh.style.display = "block";
+									}else{
+										zt = 1
+										console.log(zt);
+										qh.style.display = "none";
+									}
+								}
 								var qb = document.getElementById("qb");
 								var wk = document.getElementById("wk");
 								var de = document.getElementById("de");
